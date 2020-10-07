@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Teko', sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1b2021;
+  color: #e9c794;
+}
+
+#clock {
+  font-weight: light;
+  font-size: 7rem;
+}
+
+#clock span {
+  font-size: 2rem;
+}

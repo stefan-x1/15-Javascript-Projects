@@ -21,10 +21,12 @@ let minutes = 0;
 // Functions
 function startStopwatch() {
   startBtn.textContent = 'Resume';
+  startBtn.disabled = true;
 
   let startInterval = setInterval(interval, 10);
 
   stopBtn.addEventListener('click', function () {
+    startBtn.disabled = false;
     clearInterval(startInterval);
   });
 }
